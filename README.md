@@ -1,5 +1,6 @@
-# RSA-csharp的帮助文档
+# DNS-csharp的帮助文档
 
+> 本功能主要是升级[DKIM-Smtp-csharp](https://github.com/xiangyuecn/DKIM-Smtp-csharp)时用到的一个MX查询类独立出来的。
 
 ## 跑起来
 
