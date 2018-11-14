@@ -24,7 +24,11 @@ namespace DNS {
 			Console.WriteLine("NS: " + new DNS_NS().QueryAll("qq.com").Value.join(", "));
 			Console.WriteLine("MX: " + new DNS_MX().QueryAll("qq.com").Value.join(", "));
 			Console.WriteLine("TXT: " + new DNS_TXT().QueryAll("qq.com").Value.join(", "));
-			Console.WriteLine("PTR: " + new DNS_PTR().QueryAll(a[0]).Value.join(", "));
+
+			Console.WriteLine("");
+
+			//114.114.115.115 dns反查
+			Console.WriteLine("PTR: " + new DNS_PTR().QueryAll("114.114.115.115").Value.join(", "));
 
 			//扩展的查询方法
 			Console.WriteLine("DNAME: " + new DNS_DNAME().QueryAll("qq.com").Value.join(", "));
