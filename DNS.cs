@@ -178,7 +178,7 @@ namespace DNS {
 						list.Add(GetVal(rec));
 					}
 				}
-				DnsRecordListFree(ptr2, 0);
+				DnsRecordListFree(ptr1, 0);
 
 				return rtv;
 			} catch (Exception e) {
